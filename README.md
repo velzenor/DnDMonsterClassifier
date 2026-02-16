@@ -19,18 +19,18 @@ The feature descriptions are as follows:
 | Feature | Desciption |
 | --- | --- |
 | Name | The monster's name |
-| SizeType | The size and type (e.g. Large Fiend) |
+| SizeType | Size and type (e.g. Large Fiend) |
 | Align | Alignment |
 | AC | Armor class |
-| Init | The initiative with mean in parenthesis |
-| HP | The hit points with hit dice formula in parenthesis |
-| Multiattack | True if it has multiattack |
-| LegAct | True if it has legendary actions |
-| LegRes | True if it has legendary resistances |
-| Speed | The monster's speed(s) |
+| Init | Initiative with default result in parenthesis |
+| HP | Hit points with hit dice formula in parenthesis |
+| Multiattack | A boolean that's True if it has multiattack |
+| LegAct | A boolean that's True if it has legendary actions |
+| LegRes | A boolean that's True if it has legendary resistances |
+| Speed | The monster's speeds delimited by commas |
 | CR | Challenge rating |
 | PB | Proficiency bonus |
-| Str Dex ... | The ability scores |
+| *Ability Scores* (Str, Dex, ...) | The score, modifier and saving throw bonus delimited by '/' |
 
 
 
