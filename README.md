@@ -4,7 +4,7 @@ Train a machine learning model that assesses the challenge rating (CR) of creatu
 # Intro
 D&D is a tabletop role-playing game that often involves fighting monsters. While setting up the game, a game master (GM) has access to a compilation of monsters that their players may encounter. Every possible monster in the game has a *stat-block*, a summary of that creature's game statistics and abilities (e.g. it'll say the amount of damage dealt by a dragon's fire breath). Within these, monsters are given a CR, usually from zero to thirty, that attempts to quantifiy their difficulty if fought. The GM uses this measure to build *encounters* for their players, and thus control the sense of challenge throughout the narrative.
 
-A somewhat common thing among GMs is to create custom monsters to exactly fit their story. In such cases, assessing an accurate CR for that monster can be challenging. The tool created from this project can be used to resolve that issue.
+A somewhat common thing among GMs is to create custom monsters to exactly fit their story. In such cases, assessing an accurate CR for that monster can be challenging. The trained model created from this project can be used to resolve that issue.
 
 # Usage
 If you wish to use this as a tool to estimate CR, a user-friendly demo is available [here](...).
