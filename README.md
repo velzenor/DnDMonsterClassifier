@@ -7,12 +7,12 @@ Moreover, a GM may want to create custom monsters to exactly fit their story. In
 Train a machine learning model that assesses the CR of creatures in D&D.
 
 # Interactive Demo
-A web-based interactive demo is available [here](https://colab.research.google.com/drive/1IehnwiZQxBs_XjkPQP7x-Vqaua7uhcm1?usp=sharing). This demo lets you estimate the CR of a custom monster.
+A web-based interactive demo, that lets you estimate the CR of a custom monster, is available [here](https://colab.research.google.com/drive/1IehnwiZQxBs_XjkPQP7x-Vqaua7uhcm1?usp=sharing).
 
 # Dataset
 Attribution: *This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.*
 
-Data was collected directly from the SRD, a document published by the makers of D&D which contains over 300 monsters from the game. It was compiled into tabular form, which is available within this project as `monsters.csv`. 
+Data was collected directly from the SRD, a document published by the makers of D&D which contains over 300 monsters from the game. It was compiled into tabular form, which is available within this project as [`monsters.csv`](https://github.com/velzenor/DnDMonsterAssessor/blob/24c0b7d035bac84f0a6a3ac0a9e0fb9579ac161b/data/monsters.csv). 
 
 The feature descriptions are as follows:
 
@@ -30,7 +30,7 @@ The feature descriptions are as follows:
 | Speed | The monster's speeds delimited by commas |
 | CR | Challenge rating |
 | PB | Proficiency bonus |
-| *Ability Scores* (Str, Dex, ...) | The score, modifier and saving throw bonus delimited by '/' |
+| *Ability Scores* | The score, modifier and saving throw bonus delimited by slashes |
 
 
 
